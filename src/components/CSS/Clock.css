@@ -1,0 +1,23 @@
+.ClockContainer {
+  background-color: #282c34;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.ClockContainer h2 {
+  color: #00e984;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.ClockContainer p {
+  color: #00e984;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.ClockContainer:hover p {
+  color: #4f655e; /* Ändra färgen vid hover */
+}
